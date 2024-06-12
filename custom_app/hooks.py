@@ -1,8 +1,8 @@
 app_name = "custom_app"
-app_title = "demo"
+app_title = "Custom App"
 app_publisher = "Bhargav"
-app_description = "ABC cops"
-app_email = "abc@gmail.com"
+app_description = "Custom"
+app_email = "b@gmail.com"
 app_license = "mit"
 # required_apps = []
 
