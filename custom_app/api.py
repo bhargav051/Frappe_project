@@ -36,7 +36,7 @@ def get_tasks():
             return document.as_dict()
         else:
             # Fetch all documents of a doctype
-            records = frappe.get_all(doctype, fields=["name"])
+            records = frappe.get_all(doctype, fields=["*"])
             detailed_records = []
 
             for record in records:
